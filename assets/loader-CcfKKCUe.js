@@ -15,4 +15,4 @@ import{a as i}from"./vendor-BpSrBs7K.js";(function(){const t=document.createElem
               </ul>
         </div>
       </li>`).join("")}const y=document.querySelector(".js-search-form "),g=document.querySelector(".search-input"),h=document.querySelector("ul.gallery"),d=document.querySelector(".loader"),S=document.querySelector(".load-more"),L=document.querySelector(".js-guard");function $(){d.classList.toggle("hidden")}export{$ as a,m as b,f as c,L as d,y as f,h as g,g as i,S as l};
-//# sourceMappingURL=loader-BmwhK9wg.js.map
+//# sourceMappingURL=loader-CcfKKCUe.js.map
