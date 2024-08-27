@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./img/images.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пошук зображень</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <a class="nav-link" href="./index.html">Homepage</a>
+    <div class="container">
+      <form action="submit" class="js-search-form search-form">
+        <label class="label">
+          <input
+            type="text"
+            name="input"
+            class="search-input"
+            placeholder="Search images..."
+          />
+        </label>
+        <button type="submit" class="search-button">Search</button>
+      </form>
+
+      <ul class="gallery"></ul>
+      <span class="loader hidden"></span>
+    </div>
+
+    <div class="button-container">
+      <button class="load-more hidden">Load more</button>
+    </div>
+
+    <script type="module" src="./gallery-load-more-btn.js"></script>
+  </body>
+</html>

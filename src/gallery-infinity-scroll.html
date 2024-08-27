@@ -14,11 +14,26 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <nav class="nav">
-      <ul class="nav-list">
-        <li><a class="nav-link" href="./gallery-load-more-btn.html">Gallery with "Load More" button</a></li>
-        <li><a class="nav-link" href="./gallery-infinity-scroll.html">Gallery with "Infinity scroll"</a></li>
-      </ul>
-    </nav>
+    <a class="nav-link" href="./index.html">Homepage</a>
+    <div class="container">
+      <form action="submit" class="js-search-form search-form">
+        <label class="label">
+          <input
+            type="text"
+            name="input"
+            class="search-input"
+            placeholder="Search images..."
+          />
+        </label>
+        <button type="submit" class="search-button">Search</button>
+      </form>
+
+      <ul class="gallery"></ul>
+      <span class="loader hidden"></span>
+    </div>
+
+<div class="js-guard"></div>
+
+    <script type="module" src="./gallery-infinity-scroll.js"></script>
   </body>
 </html>
